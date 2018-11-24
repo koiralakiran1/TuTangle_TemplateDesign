@@ -1,0 +1,232 @@
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button:hover{
+  cursor: pointer;
+}
+/*BEGIN: Header Section*/
+.top_header img{
+  margin-top: 20px;
+  margin-bottom: 16px;
+  float: left;
+}
+.top_header form {
+  float: left;
+  margin-top: 40px;
+  margin-left: 24px;
+}
+.top_header input {
+  font-size: 10px;
+  color: #757575;
+  margin-right: 5px;
+  width: 265px;
+  line-height: 20px;
+  border: none;
+  background: url("../images/search_bar.png") no-repeat;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.top_header button {
+  color: white;
+  font-size: 9px;
+  background: url("../images/search_button.png") no-repeat;
+  line-height: 20px;
+  width: 56px;
+  border: none;
+  font-weight: bold;
+}
+.top_header_right span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.top_header li {
+  display: inline;
+  font-size: 12px;
+  padding-right: 5px;
+  padding-left: 2px;
+  background: url("../images/pipe.png") no-repeat;
+  background-position: right;
+}
+.top_header li a:hover {
+  color: white;
+}
+.top_header li.last_child {
+  border: none;
+  padding-right: 0px;
+  background: none
+}
+nav {
+  background-color: #f5f5f5;
+  padding-left: 32px;
+  padding-right: 32px;
+  min-width: 938px;
+}
+.nav_user_actions li {
+  margin-right: 25px;
+  float: left;
+}
+.nav_user_actions li a {
+  display: block;
+  padding: 12px 5px;
+}
+.nav_user_notifications li {
+  margin-left: 23px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  float: left;
+}
+.nav_user_notifications li.inactive a {
+  cursor: default;
+  color: #757575;
+}
+
+nav .nav_user_actions li:hover {
+  background: white;
+}
+
+/*END: Header Section*/
+/*BEGIN: Main Content or Body Section*/
+aside li {
+  clear: both;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 12px;
+  padding-bottom: 9px
+}
+aside a {
+  color: black;
+}
+aside li:hover {
+  background: white;
+}
+aside h2 {
+  line-height: 42px;
+  font-size: 16px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background-color: #2fc1da;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  clear: both;
+}
+aside h4 {
+  font-size: 13px;
+  font-weight: lighter;
+  width: 164px;
+}
+.left_side_panel h4 {
+  float: left;
+}
+.mid_container_header h1, h3, h4{
+  font-weight: lighter;
+}
+.mid_container_header>h1 {
+  margin-top: -6px;
+  margin-bottom: 8px;
+  font-size: 27px;
+  letter-spacing: 1.5px;
+}
+.mid_container_header h3 {
+  margin-top: 11px;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.mid_container_header h4 {
+  font-size: 11px;
+}
+main {
+  clear: both;
+  font-size: 11px;
+  color: #757575;
+  font-weight: bolder;
+}
+ul.mid_container_main>li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+  clear: both;
+}
+.entry_update_information_container ul li {
+  display: inline;
+  background: url("../images/pipe.png") no-repeat;
+  background-position: right;
+  padding-right: 8px;
+  margin-right: 2px;
+}
+.entry_update_information_container ul li.last_child {
+  background: none;
+}
+section a,
+.mid_container_main li.new_entry .entry_update_information_container>span,
+.mid_container_main li.new_comment .entry_update_information_container>span {
+  color: #2fc1da;
+  font-weight: bolder;
+}
+.main_content_container h2 a{
+  font-size: 15px;
+  font-weight: lighter;
+  color: black;
+}
+.entry_update_information_container h2 {
+  margin-bottom: 3px;
+}
+.entry_update_information_container ul {
+  margin-bottom: 1px;
+}
+.mid_container_main li.subscribed span {
+  color: green;
+  font-weight: bolder;
+}
+.mid_container_main li.new_topic_box_invite .entry_update_information_container>span {
+  color: red;
+  font-weight: bolder;
+}
+section .profile_image_container {
+  position: relative;
+}
+section .profile_image_frame {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url("../images/img-frame.png") no-repeat;
+}
+/*END: Main Content or Body Section*/
+/*BEGIN: Footer Section*/
+footer {
+  background-color: #727272;
+  padding-left: 32px;
+  padding-right: 32px;
+  color: white;
+  line-height: 45px;
+  font-size: 9px;
+  font-weight: bold;
+  min-width: 938px;
+}
+footer a {
+  color: white;
+}
+footer ul {
+  float: left;
+}
+footer p {
+  float: right;
+}
+footer li {
+  display: inline;
+  background: url("../images/footer_bullet.png") no-repeat;
+  background-position: right;
+  padding-right: 11px;
+  margin-right: 3px;
+}
+footer li.last_child{
+  background: none;
+}
+/*END: Footer Section*/

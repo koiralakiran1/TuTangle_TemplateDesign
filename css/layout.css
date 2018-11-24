@@ -1,0 +1,147 @@
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/*BEGIN: Header Section*/
+.top_header {
+  background-color: #7dd9e8;
+  padding-left: 32px;
+  padding-right: 32px;
+  min-width: 938px;
+}
+.top_header_inner {
+  width: 938px;
+  margin: auto;
+}
+.top_header_left {
+  float: left;
+}
+.top_header_right {
+  float: right;
+  margin-top: 24px;
+  text-align: right;
+}
+.nav_inner {
+  width: 938px;
+  margin: auto;
+}
+.nav_user_actions {
+  float: left;
+  font-size: 14px;
+}
+.nav_user_notifications {
+  float: right;
+  font-size: 12px;
+}
+.topic_box_invites {
+  margin-right: 23px;
+  background: url("../images/pngs_transparent/tbi_blue_icon_transparent.png") no-repeat;
+  background-position: left;
+  padding-left: 16px;
+}
+.friend_requests {
+  background: url("../images/pngs_transparent/friend_request_grey_transparent.png") no-repeat;
+  background-position: left;
+  padding-left: 24px;
+}
+/*END: Header Section*/
+/*BEGIN: Main Content or Body Section*/
+.main_content_container {
+  padding: 31px;
+  padding-top: 31px;
+  min-width: 938px;
+}
+.main_content_container_inner {
+  background: url("../images/background_strip.png");
+  background-repeat: repeat-y;
+  width: 938px;
+  margin: auto;
+}
+.col3_left_big {
+  float: left;
+}
+.col3_right_small {
+  float: right;
+  width: 176px;
+}
+.left_side_panel {
+  float: left;
+  width: 194px;
+  margin-right: 25px
+}
+.mid_content_panel {
+  float: right;
+  width: 518px;
+  margin-right: 25px;
+}
+.mid_container_tabs_group {
+  border-bottom: 2px solid #2fc1da;
+}
+.mid_container_big_tab_left {
+  float: left;
+  background: url("../images/big_tab_grey.png") no-repeat;
+  width: 258px;
+  text-align: center;
+  /* height: 65px; */
+}
+.mid_container_big_tab_right {
+  float: right;
+  /* height: 65px; */
+  background: url("../images/big_tab_grey_right.png") no-repeat;
+  width: 258px;
+  text-align: center;
+}
+.big_tab_left_small_tabs_groups .big_tab_left_small_tab_left,
+.big_tab_right_small_tabs_groups .big_tab_right_small_tab_left {
+  float: left;
+  background: url("../images/tab_grey.png") no-repeat;
+  margin-left: 10px;
+  margin-top: 6px;
+  width: 114px;
+  line-height: 28px;
+}
+.big_tab_left_small_tabs_groups .big_tab_left_small_tab_right,
+.big_tab_right_small_tabs_groups .big_tab_right_small_tab_right {
+  float: right;
+  margin-top: 6px;
+  margin-right: 10px;
+  width: 114px;
+  line-height: 28px;
+  background: url("../images/tab_grey.png") no-repeat;
+}
+.big_tab_left_small_tabs_groups .big_tab_left_small_tab_right:hover,
+.big_tab_right_small_tabs_groups .big_tab_right_small_tab_right:hover,
+.big_tab_left_small_tabs_groups .big_tab_left_small_tab_left:hover,
+.big_tab_right_small_tabs_groups .big_tab_right_small_tab_left:hover {
+  background: url("../images/tab_blue.png") no-repeat;
+  color: white;
+  cursor: pointer;
+}
+.mid_container_tabs_group .active {
+  background: url("../images/tab_blue.png") no-repeat;
+  color: white;
+}
+ul.mid_container_main>li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+  clear: both;
+}
+section .profile_image_container {
+  float: left;
+  margin-right: 10px;
+}
+section .entry_update_information_container {
+  width: 438px;
+  float: right;
+}
+/*END: Main Content or Body Section*/
+/*BEGIN: Footer Section*/
+.footer_inner {
+  width: 938px;
+  margin: auto;
+}
+/*END: Footer Section*/
